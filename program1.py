@@ -10,7 +10,6 @@ def copy_line(source_file, destination_file, line_number):
             else:
                 print("Недопустимый номер строки")
 
-
 source_file = input("Введите имя файла, из которого нужно скопировать: ")
 destination_file = input("Введите имя файла, в который нужно скопировать: ")
 line_number = int(input("Введите номер строки для копирования: "))
